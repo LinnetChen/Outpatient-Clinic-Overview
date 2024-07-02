@@ -3,11 +3,13 @@
 
 const Clinic_info = [
     {
+        href:`https://app.dianthus.info/reservation/clinic1.php`,
         icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/懷寧.png" alt="">`,
         title:`懷寧院區`,
         address:`台北市中正區懷寧街78號`,
     },
     {
+        href:`https://app.dianthus.info/reservation/clinic1.php`,
         icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/宜蘊.png" alt="">`,
         title:`禾馨宜蘊生殖中心`,
         address:`台北/桃園/台中`,
@@ -70,11 +72,41 @@ const Clinic_info = [
     
 ];
 
-const clinicContainer = document.getElementById('container');
+// const clinicContainer = document.getElementById('container');
+
+// Clinic_info.forEach(clinic => {
+//     const box = document.createElement('div');
+//     box.className = 'box';
+
+//     const iconDiv = document.createElement('div');
+//     iconDiv.className = 'icon';
+//     iconDiv.innerHTML = clinic.icon;
+
+//     const textDiv = document.createElement('div');
+//     textDiv.className = 'text';
+
+//     const titleDiv = document.createElement('div');
+//     titleDiv.className = 'title';
+//     titleDiv.innerText = clinic.title;
+
+//     const addressDiv = document.createElement('div');
+//     addressDiv.className = 'address';
+//     addressDiv.innerText = clinic.address;
+
+//     textDiv.appendChild(titleDiv);
+//     textDiv.appendChild(addressDiv);
+//     box.appendChild(iconDiv);
+//     box.appendChild(textDiv);
+//     clinicContainer.appendChild(box);
+// });
+
+
+const clinicContainer = document.getElementById('clinic-container');
 
 Clinic_info.forEach(clinic => {
-    const box = document.createElement('div');
+    const box = document.createElement('a');
     box.className = 'box';
+    box.href = clinic.href;
 
     const iconDiv = document.createElement('div');
     iconDiv.className = 'icon';
