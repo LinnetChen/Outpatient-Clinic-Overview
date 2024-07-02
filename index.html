@@ -20,17 +20,38 @@
 </head>
 
 <body>
-    <!-- <div class="box">
-        <div class="icon"></div>
-        <div class="text">
-            <div class="title"></div>
-            <div class="address"></div>
-        </div>
-    </div> -->
-
+	<div style="margin-top:0rem;">&nbsp;</div>
     <div id="container"></div>
 
-    <script src="https://linnetchen.github.io/Outpatient-Clinic-Overview/js/main.js?v=1.0.9" defer></script>
+    <!--loading begin-->
+    <!-- <div class="loading" style="display: none;">
+        <div class="row">
+            <div class="small-12 columns text-center">
+                <div><img src="assets/img/小禾馨.png" class="tiny"><br><span>請稍候...</span></div>
+            </div>
+        </div>
+    </div> -->
+    <!--loading end-->
+    
+
+    <script src="https://linnetchen.github.io/Outpatient-Clinic-Overview/js/main.js?v=1.0.11" defer></script>
+    <!-- <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/what-input.js"></script>
+    <script src="assets/js/vendor/foundation.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('a').on('click', function () {
+                $('.loading').show();
+            });//click loading
+
+            // 偵測是否有回上一頁
+            window.onpageshow = function (event) {
+                if (event.persisted) {
+                    $('.loading').hide();
+                }
+            };
+        });//ready
+    </script> -->
 </body>
 
 </html>
