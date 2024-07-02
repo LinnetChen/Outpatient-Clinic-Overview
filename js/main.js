@@ -1,12 +1,12 @@
 const Clinic_info = [
   {
-    // href: `https://app.dianthus.info/reservation/clinic1.php`,
+    href: `https://app.dianthus.info/reservation/clinic1.php`,
     icon: `<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/懷寧.png" alt="">`,
     title: `懷寧院區`,
     address: `台北市中正區懷寧街78號`,
   },
   {
-    // href: `https://app.dianthus.info/reservation/clinic1.php`,
+    href: `https://app.dianthus.info/reservation/clinic1.php`,
     icon: `<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/宜蘊.png" alt="">`,
     title: `禾馨宜蘊生殖中心`,
     address: `台北/桃園/台中`,
