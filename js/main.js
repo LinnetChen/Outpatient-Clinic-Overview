@@ -3,32 +3,32 @@
 
 const Clinic_info = [
     {
-        icon:`<img src="/img/懷寧.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/懷寧.png" alt="">`,
         title:`懷寧院區`,
         address:`台北市中正區懷寧街78號`,
     },
     {
-        icon:`<img src="/img/宜蘊.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/宜蘊.png" alt="">`,
         title:`禾馨宜蘊生殖中心`,
         address:`台北/桃園/台中`,
     },
     {
-        icon:`<img src="/img/懷寧.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/懷寧.png" alt="">`,
         title:`小士林院區`,
         address:`台北市士林區中正路289號`,
     },
     {
-        icon:`<img src="/img/新生.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/新生.png" alt="">`,
         title:`新生院區`,
         address:`台北市大安區新生南路3段2號`,
     },
     {
-        icon:`<img src="/img/小禾馨.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/小禾馨.png" alt="">`,
         title:`小禾馨院區`,
         address:`台北市大安區新生南路3段4號`,
     },
     {
-        icon:`<img src="/img/民權.png" alt="">`,
+        icon:`<img src="https://linnetchen.github.io/Outpatient-Clinic-Overview/img/民權.png" alt="">`,
         title:`(小)民權院區`,
         address:`台北市內湖區民權東路六段42號`,
     },
